@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>it-velhot - projektit</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div id="logo">
+                <h1><img src="img/esedu_favico.png" alt="Esedu Logo"> it-<span class="highlight">velhot</span></h1>
+            </div>
+            <nav>
+                <a href="index.html">Koti</a>
+                <a href="tietoja.html">Tietoja</a>
+                <a href="projektit.html" class="highlight">Projektit</a>
+            </nav>
+        </div> 
+    </header>
+
+    <section id="newsletter">
+        <div class="container">
+            <h2>Tilaa uutiskirjeemme</h2>
+            <form>
+                <input type="email" placeholder="sähköpostiosoitteesi">
+                <button>Tilaa</button>
+            </form>
+        </div>
+    </section>
+
+    <section id="main">
+        <div class="container">
+            <article>
+                <h1>Projektit</h1>
+                <ul class="projects-list">
+                    <li>
+                        <h2>Ohjelmointiprojekti</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maiores consequatur fugit similique nihil impedit natus, praesentium officia quidem illum? Illo dolor vel autem tempore vitae ad cum dolore tempora?</p>
+                        <p>Valmis: 8.4.2020</p>                        
+                    </li>
+                    <li>
+                        <h2>Verkkosivuprojekti</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maiores consequatur fugit similique nihil impedit natus, praesentium officia quidem illum? Illo dolor vel autem tempore vitae ad cum dolore tempora?</p>
+                        <p>Valmis: 18.5.2020</p>                        
+                    </li>
+                    <li>
+                        <h2>Linux-palvelimen asennus</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam maiores consequatur fugit similique nihil impedit natus, praesentium officia quidem illum? Illo dolor vel autem tempore vitae ad cum dolore tempora?</p>
+                        <p>Valmis: 5.7.2020</p>                        
+                    </li>
+                </ul>
+            </article>
+            <aside class="dark" id="dark-form">
+                <h2>Lähetä viesti</h2>
+                <form class="message">
+                    <div>
+                        <label for="nimi">Nimi</label>
+                        <input type="text" name="nimi" placeholder="Nimesi...">
+                    </div>
+                    <div>
+                        <label for="email">Sähköposti</label>
+                        <input type="text" name="email" placeholder="Sähköpostiosoitteesi...">
+                    </div>
+                    <div>
+                        <label for="viesti">Viesti</label>
+                        <textarea name="viesti" id="" rows="5"></textarea>
+                    </div>
+                    <button>Lähetä</button>
+                </form>
+            </aside>
+        </div>
+    </section>
+
+    <footer>
+        <p>it-velhot web design, copyright &copy; 2020</p>
+    </footer>
+    
+</body>
+</html>
